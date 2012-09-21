@@ -1,8 +1,6 @@
 require 'ZURB-foundation'
 # Require any additional compass plugins here.
 
-
-# Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "stylesheets"
 sass_dir = "sass"
@@ -18,9 +16,12 @@ javascripts_dir = "javascripts"
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
 
-
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+preferred_syntax = :scss
+
+output_style = :nested # by Compass.app 
+line_comments = false # by Compass.app 
